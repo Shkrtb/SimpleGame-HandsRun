@@ -1,0 +1,50 @@
+# --- Unity関連の巨大ファイルと一時ファイル ---
+# Unityが生成するライブラリ、キャッシュ、ビルド出力など
+# これらのファイルはUnityプロジェクトを開いた際に自動的に再生成されます
+/Hand7/Library/                  
+/Hand7/Temp/                    
+/Hand7/obj/                     
+/Hand7/[Bb]uild/             
+/Hand7/[Bb]uilds/
+/Hand7/Logs/                     
+/Hand7/Packages/               
+
+# Unity関連の特定のファイル
+*.unityproj
+*.csproj
+*.sln                         
+*.suo                       
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pidb.meta
+*.pdb
+*.mdb
+
+# アセットストアツールや特定の素材
+Hand7/Assets/AssetStoreTools/
+Hand7/Assets/SimplePolyCity/
+
+# --- Python関連の仮想環境とキャッシュファイル ---
+# pythonHandTracking/myenv/ のような仮想環境ディレクトリ
+pythonHandTracking/myenv/
+
+# Pythonのコンパイル済みファイルやキャッシュ (引き続き無視)
+*.pyc
+__pycache__/
+
+# --- 開発環境（VS Code / Visual Studio）関連のファイル ---
+.vs/                            
+.vscode/                           
+
+# --- その他の一般的な無視ファイル ---
+# 一時ファイル
+*.log
+*.tmp
+
+# macOSの隠しファイル
+.DS_Store
+
+# Windowsの隠しファイル
+Thumbs.db
